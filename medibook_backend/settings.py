@@ -50,11 +50,7 @@ DATABASES = {
     }
 }
 DEBUG = True
-ALLOWED_HOSTS = [
-    'tetouan-doctor-backend-production.up.railway.app',
-    'localhost',
-    '127.0.0.1',
-]
+ALLOWED_HOSTS = ['tetouan-doctor-backend.onrender.com', 'localhost', '127.0.0.1']
 STATIC_URL = '/static/'
 
 SECRET_KEY = 'django-insecure-tetouan-doctor-2026-secret-key-change-in-production'
