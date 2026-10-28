@@ -56,3 +56,4 @@ STATIC_URL = '/static/'
 SECRET_KEY = 'django-insecure-tetouan-doctor-2026-secret-key-change-in-production'
 DEBUG = True
 ROOT_URLCONF = 'medibook_backend.urls'
+WSGI_APPLICATION = 'medibook_backend.wsgi.application'
